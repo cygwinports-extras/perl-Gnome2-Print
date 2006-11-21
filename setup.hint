@@ -1,0 +1,4 @@
+category: Perl Gnome
+requires: cygwin glib2 libgnomeprint22 libgnomeprintui22 perl perl-Glib perl-Gtk2
+sdesc: "Perl bindings for libgnomeprint(ui)"
+ldesc: "Perl bindings for libgnomeprint-2.2 and libgnomeprintui-2.2."

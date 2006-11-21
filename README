@@ -1,0 +1,125 @@
+perl-Gnome2-Print
+-------------------------------------------
+Perl bindings for libgnomeprint and libgnomeprintui.
+
+Runtime requirements:
+  cygwin-1.5.22-1
+  glib2-2.12.4-1
+  libgnomeprint22-2.12.1-2
+  libgnomeprintui22-2.12.1-1
+  perl-5.8.7-5
+  perl-Glib-1.140-1
+  perl-Gtk2-1.140-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.22-1
+  binutils-20060817-1
+  cygport-0.2.7-1
+  gcc-core-3.4.4-1
+  make-3.81-1
+  perl-5.8.7-5
+  perl-ExtUtils-Depends-0.205-1
+  perl-ExtUtils-PkgConfig-1.07-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-Print-0.951-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./Gnome2-Print-0.951-1.sh all
+
+This will create:
+  /usr/src/perl-Gnome2-Print-0.951-1-src.tar.bz2
+  /usr/src/perl-Gnome2-Print-0.951-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gnome2-Print.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Config.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Config/Constants.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Context.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Dialog.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Font.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Font/Constants.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/FontDialog.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/FontFace.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/FontPreview.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/FontSelection.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/GlyphList.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Install/gnomeprint.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Install/gnomeprintperl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Install/gnomeprintperl-version.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Install/gnomeprintperl.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Install/gnomeprintperl.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Job.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/JobPreview.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Paper.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/PaperSelector.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/Unit.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/UnitSelector.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/index.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Print/main.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Print/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Print/Print.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Print/Print.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Print/libPrint.dll.a
+  /usr/share/doc/Cygwin/perl-Gnome2-Print-1.000.README
+  /usr/share/doc/perl-Gnome2-Print-1.000/AUTHORS
+  /usr/share/doc/perl-Gnome2-Print-1.000/ChangeLog
+  /usr/share/doc/perl-Gnome2-Print-1.000/NEWS
+  /usr/share/doc/perl-Gnome2-Print-1.000/README
+  /usr/share/man/man3/Gnome2.Print.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.Config.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.Context.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.Dialog.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.Font.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.FontDialog.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.FontFace.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.FontPreview.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.FontSelection.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.GlyphList.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.Job.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.JobPreview.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.Paper.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.PaperSelector.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.Unit.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.UnitSelector.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.index.3pm.gz
+  /usr/share/man/man3/Gnome2.Print.main.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Gnome2-Print.pod
+
+--------------------
+
+Port Notes:
+
+----- version 1.000-1 -----
+Stable release.
+
+----- version 0.951-1 -----
+New upstream version, built against libgnomeprint(ui)-2.10.
+
+----- version 0.94-3 -----
+Rebuilt for perl-5.8.7 with --enable-auto-image-base.
+
+----- version 0.94-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 0.94-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
