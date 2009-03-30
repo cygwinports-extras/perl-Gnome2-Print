@@ -3,22 +3,23 @@ perl-Gnome2-Print
 Perl bindings for libgnomeprint and libgnomeprintui.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  glib2-2.14.6-1
-  libgnomeprint22-2.18.3-1
-  libgnomeprintui22-2.18.2-1
-  perl-5.10.0-3
-  perl-Glib-1.164-1
-  perl-Gtk2-1.164-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.0-1
+  libgnomeprint2.2_0-2.18.6-1
+  libgnomeprintui2.2_0-2.18.4-1
+  perl-5.10.0-5
+  perl-Glib-1.220-1
+  perl-Gtk2-1.220-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  perl-ExtUtils-Depends-0.205-2
-  perl-ExtUtils-PkgConfig-1.10-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  perl-ExtUtils-Depends-0.301-1
+  perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -71,10 +72,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Print/main.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Print/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Print/Print.dll
-  /usr/share/doc/perl-Gnome2-Print-1.000/AUTHORS
-  /usr/share/doc/perl-Gnome2-Print-1.000/ChangeLog
-  /usr/share/doc/perl-Gnome2-Print-1.000/NEWS
-  /usr/share/doc/perl-Gnome2-Print-1.000/README
+  /usr/share/doc/perl-Gnome2-Print/AUTHORS
+  /usr/share/doc/perl-Gnome2-Print/ChangeLog
+  /usr/share/doc/perl-Gnome2-Print/NEWS
+  /usr/share/doc/perl-Gnome2-Print/README
   /usr/share/man/man3/Gnome2.Print.3pm.gz
   /usr/share/man/man3/Gnome2.Print.Config.3pm.gz
   /usr/share/man/man3/Gnome2.Print.Context.3pm.gz
@@ -98,23 +99,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.000-2 -----
-Rebuilt for perl-5.10.
-
------ version 1.000-1 -----
-Stable release.
-
------ version 0.951-1 -----
-New upstream version, built against libgnomeprint(ui)-2.10.
-
------ version 0.94-3 -----
-Rebuilt for perl-5.8.7 with --enable-auto-image-base.
-
------ version 0.94-2 -----
-Rebuilt for perl-5.8.6.
-
------ version 0.94-1 -----
-Initial release for Cygwin.
+----- version 1.000-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
